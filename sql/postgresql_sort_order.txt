@@ -1,0 +1,9 @@
+In UTF-8, PostgreSQL sorts characters in the following order:
+
+1. Punctuation marks, including quotes, parens, and math operators
+2. Numbers 0-9
+3. Additional punctuation, including question marks
+4. Capital letters A-Z
+5. More punctuation, including brackets and underscore
+6. Lowercase letters a-z
+7. Additional punctuation, special characters, and extended alphabet

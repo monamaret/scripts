@@ -1,0 +1,6 @@
+SQL is particular about keyword order in queries. Always do:
+
+SELECT column_names
+FROM table_name
+WHERE criteria
+ORDER_BY column_names;

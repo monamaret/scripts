@@ -1,0 +1,15 @@
+Comparison and matching operators in PostgreSQL:
+
+operator          function                        example
+--------          --------                        -------
+=                 equal to                        WHERE school = 'Baker Middle School'
+<> or !=          not equal to                    WHERE school <> 'Baker Middle School'
+>                 greater than                    WHERE salary > 20000
+<                 less than                       WHERE salary < 45000
+>=                greater than or equal to        WHERE salary >= 60000
+<=                less than or equal to           WHERE salary <= 20000
+BETWEEN           within a range                  WHERE salary BETWEEN 20000 AND 40000
+IN                match 1 set of variables        WHERE last_name IN ('Bush', 'Roush')
+LIKE              case-sensitive pattern match    WHERE first_name LIKE 'Sam%'
+ILIKE             case-insensitive pattern match  WHERE first_name ILIKE 'sam%'
+NOT               negates a condition             WHERE first_name NOT ILIKE 'sam%'
